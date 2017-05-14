@@ -1,0 +1,120 @@
+body{
+    background-color:#99ff99;
+}
+.product-hover {
+  transition: opacity 0.3s ease;
+     border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    
+}
+
+.circleBase {
+    border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+}
+.type2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(Benglitch1.gif);
+    border: 3px solid #000;
+        -webkit-transition: all .5s ease-in-out; /* transitions make any changes to the element happen over time */
+}
+.type3 {
+    background-image: url(rifp3.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:500;
+}
+
+.type4 {
+    background-image: url(cringe1.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:400;
+
+    
+}
+
+
+.type5 {
+    background-image: url(benglitch0.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:300;
+
+    
+}
+
+.type6 {
+    background-image: url(harmony.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:200;
+
+    
+}
+
+.type7 {
+    background-image: url(sandlot.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:100;
+
+    
+
+}
+#product-hover {
+
+}
+
+#circleBase {
+
+}
+
+}
+#type2 {
+   }
+#type3 {
+
+
+    
+}
+
+#type3:hover{
+    -webkit-transform: rotate(720deg);
+}
+
+#type4 {
+  
+    
+}
+
+
+#type5 {
+   
+
+    
+}
+
+#type6 {
+
+
+    
+}
+
+#type7 {
+ 
+    
+}
+

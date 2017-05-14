@@ -1,0 +1,194 @@
+body{
+    background-color:#99ff99;
+}
+.product-hover {
+  transition: opacity 0.3s ease;
+     border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    
+}
+
+.circleBase {
+    border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+}
+.type2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(Benglitch1.gif);
+    border: 3px solid #000;
+        -webkit-transition: all .5s ease-in-out; /* transitions make any changes to the element happen over time */
+}
+.type3 {
+    background-image: url(rifp3.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:500;
+}
+
+.type4 {
+    background-image: url(cringe1.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:400;
+
+    
+}
+
+
+.type5 {
+    background-image: url(benglitch0.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:300;
+
+    
+}
+
+.type6 {
+    background-image: url(harmony.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:200;
+
+    
+}
+
+.type7 {
+    background-image: url(sandlot.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:100;
+
+    
+
+}
+#product-hover {
+
+}
+
+#circleBase {
+
+}
+
+}
+#type2 {
+   }
+#type3 {
+
+
+    
+}
+
+p#type3:hover{
+    -webkit-transform: rotate(720deg);
+}
+
+#type4 {
+  
+    
+}
+
+
+#type5 {
+   
+
+    
+}
+
+#type6 {
+
+
+    
+}
+
+#type7 {
+ 
+    
+}
+
+#image-paragraph h1 {
+    z-index: 0;
+    position: absolute;
+    max-width: 200px;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+* tooltip */
+
+.tooltip {
+    position: relative;
+    color: #ccc;
+
+    -webkit-transition: all 500ms ease-in-out;  
+}
+
+/* this text will appear as a tooltip when hovering on .tooltip */
+
+.tooltip .tooltip-text { 
+    background: black;
+    position: absolute;
+    top: -30px;
+    width: 110px;
+    margin-left: -5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+
+.tooltip:hover {
+    color: black;
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: 1;
+}
+
+
+p#circle:hover {
+    opacity: 1;
+}
+
+/* each image is given its own transition delay, so they occur in an order when hovered on */
+
+p#image-paragraph #text-1 {
+    top: 10px;
+    left: 30px;
+    -webkit-transition-delay: 19s;   
+}
+
+p#image-paragraph #text-2 {
+    right: 10px;
+    bottom: 70px;
+    -webkit-transition-delay: 0.2s;
+}
+
+p#image-paragraph #text-3 {
+    left: 300px;
+    bottom: -100px;
+    -webkit-transition-delay: .4s;
+}
+
+p#image-paragraph #image-4 {
+    right: 90px;
+    top: -100px;
+    -webkit-transition-delay: .6s;  
+}

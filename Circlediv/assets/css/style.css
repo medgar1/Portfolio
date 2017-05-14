@@ -1,0 +1,242 @@
+body{
+    background-color:#99ff99;
+}
+
+#wordmark{
+    background-image: url(wm.png);
+    position: fixed;
+    width: 800;
+    height: 248;
+    left:20%;
+    right:50%;
+}
+
+
+.product-hover {
+  transition: opacity 0.3s ease;
+     border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    
+}
+
+.circleBase {
+    border-radius: 50%;
+
+
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+}
+.type2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(Benglitch1.gif);
+    border: 3px solid #000;
+        -webkit-transition: all .5s ease-in-out; /* transitions make any changes to the element happen over time */
+}
+.type3 {
+    background-image: url(rifp3.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:950;
+    top:300;
+
+
+    
+}
+
+#type3:hover{
+    -webkit-transform: rotate(720deg);
+}
+
+.type4 {
+    background-image: url(cringe1.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:770;
+    top:300;
+
+    
+}
+
+
+.type5 {
+    background-image: url(benglitch0.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:590;
+    top:300;
+
+    
+}
+
+.type6 {
+    background-image: url(harmony.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:410;
+    top:300;
+
+    
+}
+
+.type7 {
+    background-image: url(sandlot.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:230;
+    top:300;
+
+    
+}
+
+.type8 {
+    background-image: url(stomp.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:230;
+    top:500;
+
+    
+}
+
+.type9 {
+    background-image: url(capsule.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:410;
+    top:500;
+
+    
+}
+
+.type10 {
+    background-image: url(constructivepoem.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:590;
+    top:500;
+
+    
+}
+
+.type11 {
+    background-image: url(deadlines.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:770;
+    top:500;
+
+    
+}
+
+.type12 {
+    background-image: url(kino.gif);
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    left:950;
+    top:500;
+
+    
+}
+
+
+
+* tooltip */
+
+.tooltip {
+    position: relative;
+    color: #ccc;
+ opacity: .2;
+    -webkit-transition: all 500ms ease-in-out;  
+}
+
+/* this text will appear as a tooltip when hovering on .tooltip */
+
+.tooltip .tooltip-text { 
+    position: absolute;
+    background-color:#99ff99;
+    top: 100px;
+    width: 100%px;
+    margin-left: -5px;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+.tooltip .tooltip-text1 { 
+    position: absolute;
+    top: 100px;
+    width: 110px;
+    margin-left: -5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+
+
+/* this text will appear as a tooltip when hovering on .tooltip */
+
+.tooltip .tooltip-text2 { 
+    position: absolute;
+    top: 100px;
+    width: 110px;
+    margin-left: -5px;
+    color: blue;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+
+.tooltip .tooltip-text2 { 
+    position: absolute;
+    top: 100px;
+    width: 110px;
+    margin-left: -5px;
+    color: red;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+
+.tooltip:hover {
+    color: red;
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: .9;
+      -webkit-transition: all 500ms ease-in-out;
+}
